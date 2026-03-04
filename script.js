@@ -1,30 +1,30 @@
 // --- DATA ---
 const flavors = [
     // Fruity (Kids)
-    { name: "Strawberry Splash", price: 50, category: "fruity", image: "assets/images/strawberry_splash.png" },
-    { name: "Mango Magic", price: 55, category: "fruity", image: "assets/images/mango_magic.png" },
-    { name: "Blueberry Burst", price: 60, category: "fruity", image: "assets/images/blueberry_burst.png" },
-    { name: "Watermelon Chill", price: 50, category: "fruity", image: "assets/images/watermelon_chill.png" },
-    { name: "Pineapple Punch", price: 55, category: "fruity", image: "assets/images/pineapple_punch.png" },
-    { name: "Orange Zing", price: 50, category: "fruity", image: "assets/images/mango_magic.png" },
-    { name: "Kiwi Pop", price: 60, category: "fruity", image: "assets/images/watermelon_chill.png" },
-    { name: "Lychee Twist", price: 65, category: "fruity", image: "assets/images/strawberry_splash.png" },
+    { name: "Strawberry Splash", price: 50, category: "fruity", image: "images/strawberry_splash.png" },
+    { name: "Mango Magic", price: 55, category: "fruity", image: "images/mango_magic.png" },
+    { name: "Blueberry Burst", price: 60, category: "fruity", image: "images/blueberry_burst.png" },
+    { name: "Watermelon Chill", price: 50, category: "fruity", image: "images/watermelon_chill.png" },
+    { name: "Pineapple Punch", price: 55, category: "fruity", image: "images/pineapple_punch.png" },
+    { name: "Orange Zing", price: 50, category: "fruity", image: "images/mango_magic.png" },
+    { name: "Kiwi Pop", price: 60, category: "fruity", image: "images/watermelon_chill.png" },
+    { name: "Lychee Twist", price: 65, category: "fruity", image: "images/strawberry_splash.png" },
 
     // Creamy & Experimental (Trendy)
-    { name: "Chocolate Fudge", price: 75, category: "creamy", image: "assets/images/pineapple_punch.png" },
-    { name: "Cookies & Cream", price: 80, category: "creamy", image: "assets/images/blueberry_burst.png" },
-    { name: "Vanilla Swirl", price: 60, category: "creamy", image: "assets/images/mango_magic.png" },
-    { name: "Caramel Drip", price: 75, category: "creamy", image: "assets/images/pineapple_punch.png" },
-    { name: "Nutella Crunch", price: 90, category: "creamy", image: "assets/images/blueberry_burst.png" },
-    { name: "Cola Freeze", price: 55, category: "experimental", image: "assets/images/blueberry_burst.png" },
-    { name: "Bubblegum Blast", price: 65, category: "experimental", image: "assets/images/strawberry_splash.png" },
-    { name: "Yogurt Berry Fusion", price: 85, category: "experimental", image: "assets/images/mango_magic.png" },
+    { name: "Chocolate Fudge", price: 75, category: "creamy", image: "images/pineapple_punch.png" },
+    { name: "Cookies & Cream", price: 80, category: "creamy", image: "images/blueberry_burst.png" },
+    { name: "Vanilla Swirl", price: 60, category: "creamy", image: "images/mango_magic.png" },
+    { name: "Caramel Drip", price: 75, category: "creamy", image: "images/pineapple_punch.png" },
+    { name: "Nutella Crunch", price: 90, category: "creamy", image: "images/blueberry_burst.png" },
+    { name: "Cola Freeze", price: 55, category: "experimental", image: "images/blueberry_burst.png" },
+    { name: "Bubblegum Blast", price: 65, category: "experimental", image: "aimages/strawberry_splash.png" },
+    { name: "Yogurt Berry Fusion", price: 85, category: "experimental", image: "aimages/mango_magic.png" },
 
     // Premium
-    { name: "Belgian Dark Chocolate", price: 110, category: "premium", image: "assets/images/blueberry_burst.png" },
-    { name: "Pistachio Gold", price: 95, category: "premium", image: "assets/images/watermelon_chill.png" },
-    { name: "Matcha Mint", price: 90, category: "premium", image: "assets/images/watermelon_chill.png" },
-    { name: "Rose Milk Deluxe", price: 80, category: "premium", image: "assets/images/strawberry_splash.png" }
+    { name: "Belgian Dark Chocolate", price: 110, category: "premium", image: "images/blueberry_burst.png" },
+    { name: "Pistachio Gold", price: 95, category: "premium", image: "images/watermelon_chill.png" },
+    { name: "Matcha Mint", price: 90, category: "premium", image: "images/watermelon_chill.png" },
+    { name: "Rose Milk Deluxe", price: 80, category: "premium", image: "images/strawberry_splash.png" }
 ];
 
 // --- RENDER MENU ---
@@ -199,3 +199,4 @@ if (orderNowBtn) {
         }
     });
 }
+
